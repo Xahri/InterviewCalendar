@@ -1,0 +1,12 @@
+.Cells .gridCell {
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  flex-grow: 1;
+  align-self: stretch;
+  cursor: pointer;
+  transition: border 0.16s linear, background 0.16s linear;
+}
+
+.Cells .gridCell:hover {
+  border: 2px solid #b3b7ff;
+}
